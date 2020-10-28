@@ -87,14 +87,21 @@ y_pred
 
 # ------------------------------ Building the optimal model using Backward Elimination ----------------------- #
 
-reg = lm(Profit ~ R.D.Spend + Administration + Marketing.Spend + State, data = Startup)
-summary(reg)
+reg1 = lm(Profit ~ R.D.Spend + Administration + Marketing.Spend + State, data = Startup)
+summary(reg1)
 # remove the p-value greater than 5%
 
 # Removing Predictor
-reg = lm(Profit ~ R.D.Spend + Administration + Marketing.Spend, data = Startup)
-summary(reg)
+reg2 = lm(Profit ~ R.D.Spend + Administration + Marketing.Spend, data = Startup)
+summary(reg2)
 
-reg = lm(Profit ~ R.D.Spend + Marketing.Spend, data = Startup)
-summary(reg)
+reg3 = lm(Profit ~ R.D.Spend + Marketing.Spend, data = Startup)
+summary(reg3)
 
+
+# Comparing all the 3 model, model3 is the best model.
+# If the sign in front of variable than variable is correlated with dependent variable.
+# So, the effect of independent variable decreases and dependent variable increase.
+
+# If the sign is negative than it is opposite of the positive sign, as the effect of independent variable 
+# increases and dependent variable decreases.
