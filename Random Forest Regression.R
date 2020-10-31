@@ -1,3 +1,9 @@
+# Steps;
+# - Pick at random K data points from the Training set.
+# - Build the Decision Tree associated to these K data points.
+# - Choose the number Ntree of trees you want to build and repeat step 1 and 2.
+# - For a new data point, make each one of your Ntree trees predict the value of Y to for the data point in question
+# and assign the new data point the average across all of the predict Y values.
 
 # ---------------------------------------------------- Importing Data ------------------------------------------ #
 
