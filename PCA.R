@@ -1,7 +1,7 @@
 # PCA is one of the most used unsupervised algorithms and can be seen as the most popular dimensionality reduction 
 # algorithm.
 
-# PCA is used as
+# PCA is used as;
 # - Noise Filtering
 # - Visualization
 # - Feature Extraction
