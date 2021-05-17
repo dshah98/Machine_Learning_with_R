@@ -6,3 +6,7 @@ Here is the list to learn machine learning from basic to advanced;
 - Multiple Linear Regression
 - Polynomial Regression
 - Support Vector Regression
+- Decision Tree Regression
+- Random Forest Regression
+- R Squared and Adjusted R Squared
+- Logistic Regression
