@@ -15,3 +15,7 @@ Here is the list to learn machine learning from basic to advanced;
 - Kernel Support Vector Machine
 - Naive Bayes
 - Decision Tree Classification
+- Random Forest Classification
+- K-Mean Clustering
+- Hierarchical Clustering
+- Apriori
