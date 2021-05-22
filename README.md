@@ -22,3 +22,8 @@ Here is the list to learn machine learning from basic to advanced;
 - Eclat Algorithm
 - Upper Confidence Bound (UCB)
 - Thompson Sampling
+- Natural Language Processing (NLP)
+- Artificial Neural Network (ANN)
+- Convolutional Neural Networks (CNN)
+- Principal Component Analysis (PCA)
+- Linear Discriminant Analysis (LDA)
